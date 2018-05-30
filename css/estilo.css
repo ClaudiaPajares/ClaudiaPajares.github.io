@@ -1,0 +1,20 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0px 0px 30px 0px;
+    font-family: serif;
+    font-size: 18px;
+    color: black;
+}
+
+h1 {
+    font-size: 130%;
+}
+
+h2 {
+    font-size: 115%;
+}
+
+#remite {
+    text-align: right;
+}
