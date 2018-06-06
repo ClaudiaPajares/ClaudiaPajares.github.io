@@ -1,0 +1,113 @@
+body {
+    width: auto;
+    margin: 5%;
+    font-family: sans-serif;
+}
+
+header {
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: darkgray;
+}
+
+header p {
+    text-align: right;
+    position: float;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+p {
+    font-size: 150%;
+}
+
+#general {
+    margin: 1% 10%;
+    padding: 20px;
+    border-left: 8px dashed rgb(87, 84, 84);
+    border-right: 8px dashed rgb(87, 84, 84);
+}
+
+.caja1 {
+    float: left;
+    float: top;
+    clear: both;
+    width: 40%;
+    margin: 8px;
+    border: 0px;
+    padding: 5px;
+    text-align: justify;
+    background-color: rgb(87, 84, 84);
+}
+
+.caja2 {
+    float: right;
+    float: top;
+    width: 40%;
+    margin: 8px;
+    border: 0px;
+    padding: 5px;
+    text-align: justify;
+    background-color: rgb(87, 84, 84);
+}
+
+.caja3 {
+    float: left;
+    float: bottom;
+    clear: both;
+    width: 40%;
+    margin: 8px;
+    border: 0px;
+    padding: 5px;
+    text-align: justify;
+    background-color: rgb(87, 84, 84);
+}
+
+.caja4 {
+    float: right;
+    float: bottom;
+    width: 40%;
+    margin: 8px;
+    border: 0px;
+    padding: 1px;
+    text-align: justify;
+    background-color: rgb(87, 84, 84);
+}
+
+#general h1 {
+    font-size: 200%;
+    text-align: center;
+    color: white;
+}
+
+#general h2 {
+    font-size: 150%;
+    padding-left: 3px;
+    padding-top: 3px;
+    border-bottom-style: solid;
+}
+
+#general article p {
+    font-size: 120%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#general article {
+    margin: 2%;
+    background-color: bisque;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#simbolo {
+    display: scroll;
+    position: fixed;
+    bottom: 0px;
+    right: 10%;
+}
