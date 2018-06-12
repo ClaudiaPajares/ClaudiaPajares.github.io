@@ -5,14 +5,13 @@ body {
 }
 
 header {
-    border-bottom-style: solid;
-    border-width: 5px;
-    border-color: darkgray;
+    background-color: white;
+    border-bottom: 5px solid darkgray;
 }
 
 header p {
     text-align: right;
-    position: float;
+    right: 5%;
 }
 
 h1 {
@@ -28,10 +27,12 @@ p {
 }
 
 #general {
-    margin: 1% 10%;
+    margin: 3% 0% 0% 10%;
     padding: 20px;
+    width: 67%;
     border-left: 8px dashed rgb(87, 84, 84);
     border-right: 8px dashed rgb(87, 84, 84);
+    position: absolute;
 }
 
 .caja1 {
@@ -109,5 +110,9 @@ p {
     display: scroll;
     position: fixed;
     bottom: 0px;
-    right: 10%;
+    right: 8%;
+}
+
+#simbolo a {
+    text-decoration: none;
 }
