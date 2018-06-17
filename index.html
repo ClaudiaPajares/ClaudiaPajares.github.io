@@ -10,132 +10,134 @@
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/social.css">
-    <link rel="stylesheet" href="icono/style.css">
+    <link rel="stylesheet" href="icomoon/style.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">MiPáginaPersonal</a>
+                <div id="logo" class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#Yo">MiPáginaPersonal</a>
                 </div>
-                <ul class="nav navbar-nav nav-pills">
-                    <li><a data-toggle="tab" href="#Sobremi ">SobreMi</a></li>
-                    <li><a data-toggle="tab" href="#Gustos ">Gustos</a></li>
-                    <li><a data-toggle="tab" href="#Sueños ">Sueños</a></li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#Laboratorios ">Laboratorio</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="./Labs/carta.html ">Carta</a></li>
-                            <li><a href="./Labs/practica.html ">Examen</a></li>
+                <div id="menu">
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#Sobremi">Yo</a></li>
+                            <li><a href="#Gustos">Gustos</a></li>
+                            <li><a href="#Sueños">Sueños</a></li>
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#Laboratorios">Laboratorios<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="./Labs/carta.html">Carta</a></li>
+                                    <li><a href="./Labs/practica.html">Práctica</a></li>
+                                    <li><a href="#">Cajamarca</a></li>
+                                </ul>
+                            </li>
                         </ul>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
+    <section id="contenido">
+        <section id="Yo" class="container-fluid bg-3 text-center well-lg">
+            <div class="row">
+                <article class="col-sm-4">
+                    <p><img class="img-rounded " src="Image/Yo.jpg " alt="Claudia Pajares " style="width:90%" /></p>
+                </article>
+                <article id="hola" class="col-sm-7">
+                    <h2>HOLA</h2>
+                    <p>
+                        Soy Claudia, tengo 20 años, cajamarquina de nacimiento. Actualmente estoy estudiando Ingeniería de Sistemas en la Universidad Nacional de Cajamraca, curso el noveno ciclo. Disfruto mucho de la naturaleza, el cine y los viajes.
+                    </p>
+                </article>
+            </div>
+        </section>
 
-    <section class="container">
-        <div class="col-sm-12 text-left">
+        <section id="Sobremi" class="container-fluid bg-3 text-center well-lg">
             <h2 class="margin">SOBRE MI</h2>
-            <p><img class="img-rounded " src="Image/Yo.jpg " alt="Claudia Pajares " style="width:100%" /></p>
-            <p>
-                Soy Claudia, tengo 20 años, cajamarquina de nacimiento. Actualmente estoy estudiando Ingeniería de Sistemas en la Universidad Nacional de Cajamraca, curso el noveno ciclo. Disfruto mucho de la naturaleza, el cine y los viajes. Mi felicidad se basa en
-                mi mamá principalmente.
-            </p>
-        </div>
-    </section>
-
-    <section id="Sobremi" class="container">
-        <h2 class="margin">SOBRE MI</h2>
-        <div class="row">
-            <article class="col-sm-3">
-                <div class="thumbnail">
+            <div class="row">
+                <article class="col-sm-4">
                     <h3>CUALIDADES</h3>
-                    <p><img class="img-rounded " src="Image/8.jpg " style="width:100%" alt="Positivo " /></p>
+                    <p><img class="img-circle" src="Image/8.jpg " style="width:100%" alt="Positivo " /></p>
                     <p>Me considero una persona responsable, respetuosa, honrada y me esfuerzo por hacer bien las cosas</p>
-                </div>
-            </article>
-            <article class="col-sm-6">
-                <div class="thumbnail">
+                </article>
+                <article class="col-sm-4">
                     <h3>DEFECTOS</h3>
-                    <p><img class="img-rounded " src="Image/10.jpg " style="width:100%" alt="Negativo " /></p>
+                    <p><img class="img-circle" src="Image/10.jpg " style="width:100%" alt="Negativo " /></p>
                     <p>Suelo ser perezosa, impaciente, perfeccionista y me cuesta trabajar en grupo</p>
-                </div>
-            </article>
-            <article class="col-sm-3">
-                <div class="thumbnail">
+                </article>
+                <article class="col-sm-4">
                     <h3>QUIERO</h3>
-                    <p><img class="img-rounded " src="Image/9.jpg " style="width:100%" alt="Aprender " /></p>
+                    <p><img class="img-circle" src="Image/9.jpg " style="width:100%" alt="Aprender " /></p>
                     <p>Ser disciplinada, paciente, ordenada y más empática</p>
-                </div>
-            </article>
-        </div>
-    </section>
+                </article>
+            </div>
+        </section>
 
-    <section id="Gustos" class="container">
-        <h2 class="margin">MIS GUSTOS</h2>
-        <div class="row">
-            <article class="col-sm-3">
-                <div class="thumbnail">
+        <section id="Gustos" class="container-fluid bg-3 text-center well-lg">
+            <h2 class="margin">MIS GUSTOS</h2>
+            <div class="row">
+                <article class="col-sm-4">
                     <h3>CINE</h3>
-                    <p><img src="Image/3.jpg " style="width:100%" alt="Camara " /></p>
+                    <p><img class="img-circle" src="Image/3.jpg " style="width:100%" alt="Camara " /></p>
                     <p>Me gusta casi todo tipo de películas, aunque tengo preferencia por las de fantasía. Mi película favorita es el Señor de los Anillos.
                     </p>
-                </div>
-            </article>
-            <article class="col-sm-6">
-                <div class="thumbnail">
+                </article>
+                <article class="col-sm-4">
                     <h3>MÚSICA</h3>
-                    <p><img src="Image/2.jpg " style="width:100%" alt="Música " /></p>
+                    <p><img class="img-circle" src="Image/2.jpg " style="width:100%" alt="Música " /></p>
                     <p>Me dejo llevar por tonos tranquilos o letras interesantes. Entre mis gustos está Cuarteto de Nos, Ludovico Einaudi, Lily Allen y Keane</p>
-                </div>
-            </article>
-            <article class="col-sm-3">
-                <div class="thumbnail">
+                </article>
+                <article class="col-sm-4">
                     <h3>ANIMALES</h3>
-                    <p><img src="Image/1.jpg " style="width:100%" alt="Xena " /></p>
+                    <p><img class="img-circle" src="Image/1.jpg " style="width:100%" alt="Xena " /></p>
                     <p>Me encantan los felinos, los perritos y las mariposas. La de la foto es Xena, además de ella tengo 4 gatitos: Lazy, Lacito, Negrita y Juno</p>
-                </div>
-            </article>
-        </div>
-    </section>
+                </article>
+            </div>
+        </section>
 
-    <section id="Sueños" class="container-fluid bg-3 text-center">
-        <h2 class="margin">MIS SUEÑOS</h2>
-        <div class="row">
-            <article class="col-md-3">
-                <h3>ARTE</h3>
-                <p><img class="img-responsive margin" src="Image/4.jpg " style="width:100%" alt="Manualidades " /></p>
-                <p>Quiero aprender a tejer, bordar, coser pintar con acuarelas, tocar el piano, diseñar interiores y jardines</p>
-
-            </article>
-            <article class="col-md-3">
-                <h3>VIAJES</h3>
-                <p><img class="img-responsive margin" src="Image/5.jpg " style="width:100%" alt="Viajar " /></p>
-                <p>Me gustaría conocer Iquitos, Oxapampa, Tacna entre otros; y del extranjero, Italia, Egipto y otros lugares donde existan castillos medievales.</p>
-            </article>
-            <article class="col-md-3">
-                <h3>PROFESIONAL</h3>
-                <p><img class="img-responsive margin" src="Image/7.jpg " style="width:100%" alt="Crecimiento profesional " /></p>
-                <p>Quiero tener un doctorado en inteligencia de negocios y una certificación en proyectos</p>
-            </article>
-            <article class="col-md-3">
-                <h3>ESPIRITUAL</h3>
-                <p><img class="img-responsive margin" src="Image/6.jpg " style="width:100%" alt="Crecimiento espirtual " /></p>
-                <p>Quiero ser un mejor ser humano, lograr una vida armónica, ayudar a los que lo necesite, y elevar mis motivos de felicidad</p>
-            </article>
-        </div>
+        <section id="Sueños" class="container-fluid bg-3 text-center well-lg">
+            <h2 class="margin">MIS SUEÑOS</h2>
+            <div class="row">
+                <article class="col-md-3">
+                    <h3>ARTE</h3>
+                    <p><img class="img-circle" class="img-responsive margin" src="Image/4.jpg " style="width:100%" alt="Manualidades " /></p>
+                    <p>Quiero aprender a tejer, bordar, coser pintar con acuarelas, tocar el piano, diseñar interiores y jardines</p>
+                </article>
+                <article class="col-md-3">
+                    <h3>VIAJES</h3>
+                    <p><img class="img-circle" src="Image/5.jpg " style="width:100%" alt="Viajar " /></p>
+                    <p>Me gustaría conocer Iquitos, Oxapampa, Tacna entre otros; y del extranjero, Italia, Egipto y otros lugares donde existan castillos medievales.</p>
+                </article>
+                <article class="col-md-3">
+                    <h3>PROFESIONAL</h3>
+                    <p><img class="img-circle" src="Image/7.jpg " style="width:100%" alt="Crecimiento profesional " /></p>
+                    <p>Quiero tener un doctorado en inteligencia de negocios y una certificación en proyectos</p>
+                </article>
+                <article class="col-md-3">
+                    <h3>ESPIRITUAL</h3>
+                    <p><img class="img-circle" src="Image/6.jpg " style="width:100%" alt="Crecimiento espirtual " /></p>
+                    <p>Quiero ser un mejor ser humano, lograr una vida armónica, ayudar a los que lo necesite, y elevar mis motivos de felicidad</p>
+                </article>
+            </div>
+        </section>
     </section>
 
     <aside>
         <div class="social-bar ">
-            <a class="icon icon-facebook " href="https://www.facebook.com/claudia.pajares.3 " target="_blank "></a>
+            <a class="icon icon-facebook" href="https://www.facebook.com/claudia.pajares.3 " target="_blank "></a>
             <a class="icon icon-instagram " href="https://www.instagram.com/claudiapajares3/ " target="_blank "></a>
-            <a class="icon icon-google-plus " href="mailto:claudiapajaresc1997@gmail.com "></a>
-            <a class="icon icon-envelop " href="mailto:claudiapajaresc1997@hotmail.com "></a>
+            <a class="icon icon-google-plus" href="mailto:claudiapajaresc1997@gmail.com "></a>
+            <a class="icon icon-mail2" href="mailto:claudiapajaresc1997@hotmail.com "></a>
+            <a class="icon icon-whatsapp" href="https://api.whatsapp.com/send?phone=51976998787" target="_blank "></a>
         </div>
     </aside>
 

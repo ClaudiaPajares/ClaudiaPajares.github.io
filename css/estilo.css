@@ -1,0 +1,87 @@
+body {
+    font-family: serif;
+    position: relative;
+}
+
+#contenido {
+    width: 80%;
+    margin: 4% 10%;
+}
+
+header {
+    margin-bottom: 6%;
+    clear: both;
+}
+
+header #logo a {
+    margin: auto;
+    padding: 8% 1%;
+    float: left;
+    font-size: 250%;
+    color: #8fc0a9;
+}
+
+header #menu {
+    padding: 1% 0%;
+    float: right;
+}
+
+header #menu a {
+    color: #c8d5b9;
+    padding: 10px 30px;
+    font-size: 180%;
+}
+
+section section {
+    margin: 4% 0%;
+    background-color: rgb(158, 104, 42);
+}
+
+section #Yo {
+    border-top: 5%;
+    background-color: #4a7c59;
+}
+
+section #Sobremi {
+    border-top: 5%;
+    background-color: #68b0ab;
+}
+
+section #Gustos {
+    margin: 2% 0%;
+    background-color: #4a7c59;
+}
+
+section #Sueños {
+    margin: 2% 0%;
+    background-color: #68b0ab;
+}
+
+p {
+    font-size: 160%;
+    text-align: justify;
+}
+
+section H2 {
+    font-weight: bold;
+    color: #c8d5b9;
+}
+
+section H3 {
+    background-color: #faf3dd;
+    font-weight: bold;
+}
+
+footer {
+    padding: 1%;
+    background: #272624;
+}
+
+section #Yo p {
+    padding-right: 10%;
+}
+
+footer p {
+    text-align: center;
+    color: #c8d5b9;
+}
