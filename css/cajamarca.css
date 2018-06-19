@@ -1,0 +1,59 @@
+.mySlides {
+    display: none;
+}
+
+.w3-left,
+.w3-right,
+.w3-badge {
+    cursor: pointer
+}
+
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0
+}
+
+body {
+    font-family: serif;
+}
+
+nav a {
+    font-family: 'Rakkas';
+    font-size: 1.5em;
+}
+
+header div {
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+header {
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+footer {
+    margin-top: 1.5%;
+}
+
+#contenido {
+    width: 90%;
+    margin: auto;
+}
+
+#CONTENIDO section article div {
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+}
+
+p {
+    font-size: 120%;
+}
+
+h1 {
+    font-family: 'Rakkas';
+    font-size: 200%;
+}
